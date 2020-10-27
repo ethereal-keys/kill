@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://HUD.gd" type="Script" id=1]
+
+[node name="HUD" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Player1" type="Label" parent="."]
+margin_left = 93.3537
+margin_top = 28.6496
+margin_right = 232.354
+margin_bottom = 90.6496
+text = "PLAYER 1 HP : nill"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Player2" type="Label" parent="."]
+margin_left = 769.0
+margin_top = 36.0
+margin_right = 901.0
+margin_bottom = 84.0
+text = "PLAYER 2 HP : none"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Restart" type="Label" parent="."]
+margin_left = 418.0
+margin_top = 32.0
+margin_right = 601.0
+margin_bottom = 91.0
+text = "PRESS ENTER TO RESTART"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
